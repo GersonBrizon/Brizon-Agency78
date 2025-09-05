@@ -1,22 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BlueWave SMMA - Medicina Estética</title>
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<style>
-body, html { margin:0; padding:0; font-family:'Roboto',sans-serif; scroll-behavior:smooth; overflow-x:hidden; background:#f0f7fb; color:#1a1a1a;}
-a { text-decoration:none; color:inherit;}
-h2 { color:#1a73e8; text-align:center; margin-bottom:30px; font-size:2.2em;}
-section { padding:100px 20px; max-width:1200px; margin:auto; position:relative; }
-/* (Se omite parte del CSS por brevedad en este ejemplo, pero se incluiría todo el código que me diste) */
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlueWave SMMA - Medicina Estética</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Aquí iría todo tu contenido completo -->
+  <header>
+      <h1 class="fade-in">BlueWave SMMA</h1>
+      <p class="fade-in" style="transition-delay:0.3s">Impulsamos tu clínica de medicina estética al siguiente nivel</p>
+      <a href="#contacto" class="btn fade-in" style="transition-delay:0.6s">Reserva tu llamada</a>
+  </header>
+
+  <section>
+      <h2>Problemas comunes y nuestras soluciones</h2>
+      <div class="problem-solution">
+          <div class="fade-in slide-left" style="transition-delay:0.2s">
+              <i class="fas fa-eye"></i>
+              <h3>Poca visibilidad online</h3>
+              <p>Creamos campañas en redes sociales para atraer pacientes altamente cualificados y aumentar tu presencia digital.</p>
+          </div>
+          <div class="fade-in slide-right" style="transition-delay:0.4s">
+              <i class="fas fa-users"></i>
+              <h3>Gestión de clientes ineficiente</h3>
+              <p>Implementamos sistemas de automatización y CRM para que nunca pierdas una oportunidad de venta.</p>
+          </div>
+          <div class="fade-in slide-left" style="transition-delay:0.6s">
+              <i class="fas fa-bullseye"></i>
+              <h3>Publicidad costosa y poco efectiva</h3>
+              <p>Diseñamos estrategias segmentadas que maximizan tu retorno de inversión y reducen gastos innecesarios.</p>
+          </div>
+      </div>
+  </section>
+
+  <section class="history-section">
+      <div class="history fade-in">
+          <h2>Sobre Nosotros</h2>
+          <p>Fundada en 2021, BlueWave SMMA combina experiencia en marketing digital y pasión por la estética. Hemos ayudado a más de 50 clínicas a aumentar sus citas y potenciar su presencia online con estrategias innovadoras y efectivas.</p>
+      </div>
+  </section>
+
+  <section>
+      <h2>Casos de Éxito</h2>
+      <div class="case-study fade-in">
+          <div>
+              <h3>Clínica Belleza Total</h3>
+              <p>Aumentamos sus citas en un 60% en 3 meses con campañas de Instagram y Facebook Ads segmentadas.</p>
+          </div>
+          <div>
+              <h3>Estética Avanzada</h3>
+              <p>Implementamos un CRM que mejoró la retención de pacientes y redujo el tiempo de respuesta en un 50%.</p>
+          </div>
+          <div>
+              <h3>Clínica Radiante</h3>
+              <p>Rediseñamos su estrategia digital y triplicamos la captación de leads de calidad en menos de 90 días.</p>
+          </div>
+      </div>
+  </section>
+
+  <section>
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="testimonials fade-in">
+          <div class="testimonial">
+              "Gracias a BlueWave SMMA, nuestra clínica nunca había tenido tantas citas mensuales. Su equipo entiende el nicho de medicina estética a la perfección."
+              <strong>— Dra. Ana López, Clínica Belleza Total</strong>
+          </div>
+          <div class="testimonial">
+              "La implementación del CRM y la publicidad segmentada cambió completamente nuestra manera de captar pacientes. Altamente recomendados."
+              <strong>— Dr. Carlos Méndez, Estética Avanzada</strong>
+          </div>
+          <div class="testimonial">
+              "El equipo es profesional, creativo y realmente se preocupa por los resultados. Vimos un crecimiento notable en muy poco tiempo."
+              <strong>— Dra. Laura Gómez, Clínica Radiante</strong>
+          </div>
+      </div>
+  </section>
+
+  <section id="contacto">
+      <h2>Reserva tu llamada con nosotros</h2>
+      <a href="tel:+34603500843" class="btn fade-in" style="transition-delay:0.2s">Llamar Ahora</a>
+      <form class="fade-in" style="transition-delay:0.4s">
+          <input type="text" placeholder="Tu nombre" required>
+          <input type="email" placeholder="Tu correo" required>
+          <textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+          <button type="submit" class="btn">Enviar</button>
+      </form>
+  </section>
+
+  <footer>
+      <p>&copy; 2025 BlueWave SMMA - Todos los derechos reservados</p>
+      <p>Sitio creado con ❤️ y estrategia digital</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
